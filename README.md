@@ -68,10 +68,6 @@ git clone https://github.com/MitheshMakam/Assignment-2.git
 
 ---
 
-## 🖼️ Preview
-
-<img width="100%" src="cake.jpg" alt="Interactive Recipe Card Preview">
-
 ---
 
 ## 🎯 Learning Outcomes
