@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Recipe Card</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🍫 Chocolate Cake</h1>
+
+<img src="cake.jpg" alt="Chocolate Cake">
+
+<div class="info">
+
+<p><strong>Preparation Time:</strong> 45 Minutes</p>
+
+<p><strong>Servings:</strong> 6 People</p>
+
+</div>
+
+<div class="buttons">
+
+<button id="ingredientsBtn">
+Show Ingredients
+</button>
+
+<button id="stepsBtn">
+Show Steps
+</button>
+
+</div>
+
+<div id="ingredients" class="hidden">
+
+<h2>Ingredients</h2>
+
+<ul>
+
+<li>2 cups Flour</li>
+
+<li>1 cup Sugar</li>
+
+<li>1/2 cup Cocoa Powder</li>
+
+<li>2 Eggs</li>
+
+<li>1 tsp Vanilla</li>
+
+<li>1 tsp Baking Powder</li>
+
+<li>1 cup Milk</li>
+
+<li>1/2 cup Butter</li>
+
+</ul>
+
+</div>
+
+<div id="steps" class="hidden">
+
+<h2>Instructions</h2>
+
+<ol id="stepList">
+
+<li>Mix dry ingredients.</li>
+
+<li>Add eggs, milk and butter.</li>
+
+<li>Whisk until smooth.</li>
+
+<li>Pour into baking tray.</li>
+
+<li>Bake for 35 minutes.</li>
+
+<li>Cool and decorate.</li>
+
+</ol>
+
+<button id="startBtn">
+
+Start Cooking
+
+</button>
+
+<button id="nextBtn">
+
+Next Step
+
+</button>
+
+</div>
+
+<div class="progress-container">
+
+<div id="progressBar"></div>
+
+</div>
+
+<div class="timer">
+
+⏰ Time Left:
+
+<span id="timer">
+
+45:00
+
+</span>
+
+</div>
+
+<button onclick="window.print()">
+
+🖨 Print Recipe
+
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
